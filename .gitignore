@@ -1,0 +1,49 @@
+# --- Secrets / configuration locale (JAMAIS commiter) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+
+# --- Caches Maven / build backend ---
+**/target/
+
+# --- Caches Node / build frontend ---
+**/node_modules/
+**/dist/
+**/.angular/
+**/out-tsc/
+**/bazel-out/
+**/coverage/
+
+# --- Docker ---
+docker-compose.override.yml
+docker-compose.override.yaml
+.mongo/
+
+# --- IDE ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+.factorypath
+
+# --- Editeurs / OS ---
+.vs/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+desktop.ini
